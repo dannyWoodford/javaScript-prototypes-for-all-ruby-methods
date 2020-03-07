@@ -15,7 +15,7 @@ chrome.runtime.onMessage.addListener(
 			limit = parseInt(request.connectLimit)
 			console.log(limit)
 			clickConnectTimeout(mutualChecked, connectJob)
-			window.location.reload()
+			// window.location.reload()
 		}
 	});
 	
@@ -71,7 +71,7 @@ function clickConnectTimeout(mutualChecked, connectJob){
 					cards[i].children[1].children[0].click() 
 					// console.log(cards[i].parentNode.children[2].children[1].children[3].innerText)
 					console.log("clicked", i)
-				}, i * 500);
+				}, i * 700);
 		})(i++)
 	}
 }
