@@ -1,1 +1,1 @@
-# javaScript-prototypes-for-all-ruby-methods
+# call-apply-and-bind-JS-practice
